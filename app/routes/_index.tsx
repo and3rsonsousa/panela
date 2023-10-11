@@ -21,7 +21,7 @@ export default function Index() {
 				</div>
 				<div className="flex flex-col gap-2">
 					<Link
-						to="/"
+						to="/cardapio.pdf"
 						className="px-12 py-4 rounded-md hover:bg-nela/80 w-full text-xl bg-nela text-white text-center"
 					>
 						Cardápio Virtual
