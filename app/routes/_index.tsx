@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
 	return [
@@ -20,12 +19,12 @@ export default function Index() {
 					/>
 				</div>
 				<div className="flex flex-col gap-2">
-					<Link
-						to="/cardapio.pdf"
+					<a
+						href="/cardapio.pdf"
 						className="px-12 py-4 rounded-md hover:bg-nela/80 w-full text-xl bg-nela text-white text-center"
 					>
 						Cardápio Virtual
-					</Link>
+					</a>
 					<a
 						href="https://maps.app.goo.gl/ZhNnyM5xfaBoUPu27"
 						className="px-12 py-4 rounded-md hover:bg-nela/80 w-full text-xl bg-nela text-white text-center"
